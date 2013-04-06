@@ -1,21 +1,16 @@
-# Template Puppet Module for Boxen
+# SoapUI Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Install [SoapUI](http://www.soapui.org/), a free and open source cross-platform Functional Testing solution.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include soapui
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
