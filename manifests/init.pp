@@ -6,7 +6,7 @@
 class soapui {
 
   package { 'SoapUI':
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => 'https://dl.dropboxusercontent.com/s/kuq0o4zsm3z3a0j/SoapUI-4.6.4.dmg'
     }
 }
